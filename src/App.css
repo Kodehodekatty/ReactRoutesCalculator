@@ -1,16 +1,23 @@
-.contextWrapper {
-
-
-
-  right: 47%;
-  top: 20%;
-  z-index: 2;
-  position: absolute;
+@font-face {
+  font-family: test4;
+  src: url("./fonts/Queensides-3z7Ey.ttf");
 }
 
-html {
+
+
+html,
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: rgb(24, 73, 117);
+  font-family: test4;
+  background-image: url("/src/images/download\ \(1\).jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100%;
 }
